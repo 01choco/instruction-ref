@@ -1,0 +1,9 @@
+model_name_or_path: ../../../../../data1/dataset_cartography/models/llama3-8b/dpo/llama3-8b_dpo_ultrafeedback-1-1_0
+adapter_name_or_path: ../../../../../data1/dataset_cartography/saves/llama3-8b/dpo/llama3-8b-dpo-ultrafeedback-1-1-1
+template: llama3
+finetuning_type: lora
+trust_remote_code: true
+export_dir: ../../../../../data1/dataset_cartography/models/llama3-8b/dpo/llama3-8b_dpo_ultrafeedback-1-1_1
+export_size: 2
+export_device: cpu
+export_legacy_format: false
