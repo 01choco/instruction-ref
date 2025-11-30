@@ -1,0 +1,12 @@
+refined_path: ./results/feedback-50-2/min/final_original.jsonl
+armorm_path : ./results/feedback-50-2/min/yeval/min_original.jsonl
+output_dir: ./results/feedback-50-4/mean/final_output_left.jsonl
+
+# refine eval sampling
+sampling: false
+size: 500
+seed: 42
+
+# inference config
+gpt_model: gpt-4o
+gpt_max_tokens: 1024
